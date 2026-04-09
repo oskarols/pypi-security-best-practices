@@ -93,7 +93,7 @@ Python packages are distributed in two forms: source distributions (sdists) that
 > ```toml
 > # uv.toml or [tool.uv.pip] in pyproject.toml
 > [pip]
-> only-binary = true
+> only-binary = [":all:"]
 > ```
 >
 > With pip:
